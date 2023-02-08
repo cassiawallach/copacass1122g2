@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Service Type --></label>
+    <name>Service_Type__c</name>
+    <picklistValues>
+        <masterLabel>Cosmetic</masterLabel>
+        <translation><!-- Cosmetic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Floor</masterLabel>
+        <translation><!-- Floor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HVAC</masterLabel>
+        <translation><!-- HVAC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Plumbing</masterLabel>
+        <translation><!-- Plumbing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roof</masterLabel>
+        <translation><!-- Roof --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
