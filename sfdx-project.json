@@ -8,5 +8,5 @@
   "name": "copacass1122g2",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "56.0"
+  "sourceApiVersion": "55.0"
 }
