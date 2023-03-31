@@ -74,7 +74,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Pranker__c</fieldItem>
                 <identifier>RecordPranker_cField</identifier>
@@ -84,7 +84,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Prankee__c</fieldItem>
                 <identifier>RecordPrankee_cField</identifier>
