@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>crt_TEST</fullName>
+    <fullName>crt_TESTS</fullName>
     <columns>NAME</columns>
-    <columns>Title__c</columns>
-    <columns>Pranker__c</columns>
-    <columns>Prankee__c</columns>
-    <columns>Prank_Score__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>Title__c</field>
+        <field>NAME</field>
         <operation>startsWith</operation>
         <value>CRT</value>
     </filters>
-    <label>crt_TEST</label>
+    <label>crt_TESTS</label>
 </ListView>
