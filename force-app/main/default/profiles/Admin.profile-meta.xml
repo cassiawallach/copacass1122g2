@@ -13129,6 +13129,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Prank_Score__c.Prank__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Prank_Score__c.Score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Prank__c.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -13165,6 +13175,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Prankster__c.Title__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Prankster__c.Total_Points_Achieved__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -21822,6 +21837,9 @@
         <recordType>PersonAccount.PersonAccount</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Prank_Score__c-Prank Score Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Prank__c-Prank Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -22801,6 +22819,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>PartyConsent</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Prank_Score__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

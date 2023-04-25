@@ -3,5 +3,6 @@
     <fullName>Pranker_HP</fullName>
     <fields>Name</fields>
     <fields>Prankster_User__c</fields>
+    <fields>Total_Points_Achieved__c</fields>
     <label>Pranker HP</label>
 </CompactLayout>
