@@ -26,6 +26,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Prank_Score__c.Prank__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Prank_Score__c.Score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Prank__c.External_ID__c</field>
         <readable>false</readable>
@@ -75,8 +85,16 @@
         <field>Prankster__c.Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Prankster__c.Total_Points_Achieved__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Brokerage__c-Brokerage Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Prank_Score__c-Prank Score Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prank__c-Prank Layout</layout>

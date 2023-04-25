@@ -12,7 +12,7 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Manager__c</field>
+                <field>Title__c</field>
                 <uiBehavior>Readonly</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
@@ -28,7 +28,7 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Title__c</field>
+                <field>Manager__c</field>
                 <uiBehavior>Readonly</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
