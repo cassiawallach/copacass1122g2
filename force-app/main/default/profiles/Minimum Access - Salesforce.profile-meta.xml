@@ -11,11 +11,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>REM_Console</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>cmcSf__CMC_SFDX</application>
         <default>false</default>
         <visible>false</visible>
@@ -10812,11 +10807,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Brokerage__c.External_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>BusinessBrand.OrgId</field>
         <readable>true</readable>
@@ -13311,46 +13301,10 @@
         <field>ProductTransfer.Status</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.Building__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.External_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.Selling_Agent__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Property__c.Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Realtor__c.Brokerage__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Realtor__c.External_ID__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Realtor__c.First_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Realtor__c.Last_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
+    
+    
+    
+    
     <fieldPermissions>
         <editable>false</editable>
         <field>SOSSession.AppVersion</field>
@@ -21580,9 +21534,6 @@
         <layout>AuthorizationFormText-Authorization Form Text Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Brokerage__c-Brokerage Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -21727,24 +21678,8 @@
     <layoutAssignments>
         <layout>ProductTransfer-Product Transfer Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
-        <recordType>Property__c.Building</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
-        <recordType>Property__c.House</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Property__c-Building Layout</layout>
-        <recordType>Property__c.Unit</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Realtor__c-Realtor Layout</layout>
-    </layoutAssignments>
+    
+    
     <layoutAssignments>
         <layout>Refund-Refund Layout</layout>
     </layoutAssignments>
@@ -22864,21 +22799,7 @@
         <recordType>PersonAccount.PersonAccount</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.Building</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.House</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Property__c.Unit</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
+    
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
@@ -23021,10 +22942,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Brokerage__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Knowledge__kav</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -23048,14 +22965,7 @@
         <tab>Monitoring_Metadata_Change_Alert__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>Property__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Realtor__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
+    
     <tabVisibilities>
         <tab>Vehicle_Interest__c</tab>
         <visibility>Hidden</visibility>
