@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#EDDFDE</headerColor>
+        <logo>Personal_Shelleys_Bakery_logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Baked Goods, Recipes, all the sweet stuff.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Shelley&apos;s Bakery Console</label>
+    <navType>Console</navType>
+    <tabs>Baked_Good__c</tabs>
+    <tabs>Recipe__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Shelley_s_Bakery_Console_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Baked_Good__c</tab>
+        </mappings>
+        <mappings>
+            <fieldName>Baked_Good__c</fieldName>
+            <tab>Recipe__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
