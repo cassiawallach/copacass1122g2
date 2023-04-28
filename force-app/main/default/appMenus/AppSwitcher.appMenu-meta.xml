@@ -153,10 +153,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>REM_Console</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>AB4CD__ABCD_Universal_Builder</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -186,6 +182,10 @@
     </appMenuItems>
     <appMenuItems>
         <name>Dunder_Mifflin_Prank_Tracker</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Dreamhouse</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
