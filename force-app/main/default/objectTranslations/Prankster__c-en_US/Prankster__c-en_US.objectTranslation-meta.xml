@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prankster</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pranksters</value>
+    </caseValues>
+    <layouts>
+        <layout>Prankster Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Log Prank --></label>
+        <name>Log_New_Prank</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- User Detail --></label>
+        <name>User_Detail</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

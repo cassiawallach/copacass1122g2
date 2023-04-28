@@ -160,7 +160,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Prank Score</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

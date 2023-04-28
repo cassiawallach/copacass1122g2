@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Prank score on scale from 1-5 --></help>
+    <label><!-- Prank Score --></label>
+    <name>Prank_Score__c</name>
+</CustomFieldTranslation>
