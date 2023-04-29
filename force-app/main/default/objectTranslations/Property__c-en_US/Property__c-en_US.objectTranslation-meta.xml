@@ -8,5 +8,38 @@
         <plural>true</plural>
         <value>Properties</value>
     </caseValues>
+    <layouts>
+        <layout>Building Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>House Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Unit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Building --></label>
+        <name>Building</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- House --></label>
+        <name>House</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Unit --></label>
+        <name>Unit</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
